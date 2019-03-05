@@ -7,7 +7,7 @@ Nedan följer instruktioner hur du kan använda pluginet "region-halland-site-ma
 
 ## Användningsområde
 
-Denna plugin visra en Site Map i plugin-foldern, dvs
+Denna plugin visar en Site Map i plugin-foldern, dvs
 ```sh
 http://[SITE-NAME]/app/plugins/region-halland-site-map-regionhalland/site-map/site-map.php
 ```
