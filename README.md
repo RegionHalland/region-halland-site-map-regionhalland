@@ -56,5 +56,8 @@ OBS! Justera så att du hämtar aktuell version.
 
 ## Versionhistorik
 
+### 1.0.1
+- Bugg med felaktig php-avslutning
+
 ### 1.0.0
 - Första version

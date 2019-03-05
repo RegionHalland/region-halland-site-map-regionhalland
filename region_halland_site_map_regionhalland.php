@@ -6,7 +6,7 @@
 	/*
 	Plugin Name: Region Halland Site Map RegionHalland
 	Description: Specialsida för att generera en site-map
-	Version: 1.0.0
+	Version: 1.0.1
 	Author: Roland Hydén
 	License: MIT
 	Text Domain: regionhalland
@@ -16,7 +16,9 @@
 
 		$links = array_merge( array( 
 	 		'<a href="' . esc_url(plugins_url( '/region-halland-site-map-regionhalland/site-map/site-map.php' ) ) . '">' . __( 'Visa site-map', 'regionhalland') . '</a>'), $links ); 
-	return $links; 
+		
+		return $links; 
+	
 	}
 
 	add_action( 'plugin_action_links_' . plugin_basename( __FILE__ ), 'my_plugin_site_map_regionhalland'); 
@@ -38,5 +40,4 @@
 	// Vilken metod som ska anropas när pluginen avaktiveras
 	register_deactivation_hook( __FILE__, 'region_halland_site_map_regionhalland_deactivate');
 
-?>
 ?>
