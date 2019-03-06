@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?php 
 	
 	define('ROOTPATH', __DIR__);
@@ -24,9 +25,15 @@
 		'post_status' => 'publish'
 	);
 	$myPages = get_pages($args);
+?>	
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?php
 	foreach ($myPages as $page) {
 	 	$strPermaLink = get_permalink($page->ID);
-	 	echo "<a href='$strPermaLink' target='_blank'>$page->post_title</a><br>";
-	}
-
+	?>
+	<url>
+      <loc><?=$strPermaLink?></loc>
+   </url>
+	<?php } 
 ?>
+</urlset>

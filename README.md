@@ -56,6 +56,9 @@ OBS! Justera så att du hämtar aktuell version.
 
 ## Versionhistorik
 
+### 1.1.0
+- Output som xml istället för länk-lista
+
 ### 1.0.1
 - Bugg med felaktig php-avslutning
 
