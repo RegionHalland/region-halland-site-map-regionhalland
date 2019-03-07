@@ -24,7 +24,9 @@
 		'post_type' => 'page',
 		'post_status' => 'publish'
 	);
+	
 	$myPages = get_pages($args);
+
 ?>	
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <?php
