@@ -56,6 +56,9 @@ OBS! Justera så att du hämtar aktuell version.
 
 ## Versionhistorik
 
+### 1.1.1
+- Justering av felaktig load-path
+
 ### 1.1.0
 - Output som xml istället för länk-lista
 
