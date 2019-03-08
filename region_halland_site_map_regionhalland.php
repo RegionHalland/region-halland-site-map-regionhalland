@@ -6,7 +6,7 @@
 	/*
 	Plugin Name: Region Halland Site Map RegionHalland
 	Description: Specialsida för att generera en site-map
-	Version: 1.1.3
+	Version: 1.1.4
 	Author: Roland Hydén
 	License: MIT
 	Text Domain: regionhalland
@@ -17,10 +17,10 @@
 	function my_plugin_site_map_regionhalland ($links, $file) {
        $base = plugin_basename(__FILE__);
        if ($file == $base) {
-               $links[] = '<a href="' . esc_url(plugins_url( '/region-halland-site-map-regionhalland/site-map/site-map.php' ) ) . '">' . __( 'Visa site-map', 'regionhalland') . '</a>';
+               $links[] = '<a href="' . esc_url(plugins_url( '/region-halland-site-map-regionhalland/site-map/site-map-a.php' ) ) . '">' . __( 'Visa xml-site-map A', 'regionhalland') . '</a>';
+               $links[] = '<a href="' . esc_url(plugins_url( '/region-halland-site-map-regionhalland/site-map/site-map-b.php' ) ) . '">' . __( 'Visa xml-site-map B', 'regionhalland') . '</a>';
                $links[] = '<a href="' . esc_url(plugins_url( '/region-halland-site-map-regionhalland/site-map/test-a.php' ) ) . '">' . __( 'Test A', 'regionhalland') . '</a>';
                $links[] = '<a href="' . esc_url(plugins_url( '/region-halland-site-map-regionhalland/site-map/test-b.php' ) ) . '">' . __( 'Test B', 'regionhalland') . '</a>';
-               $links[] = '<a href="' . esc_url(plugins_url( '/region-halland-site-map-regionhalland/site-map/test-c.php' ) ) . '">' . __( 'Test C', 'regionhalland') . '</a>';
        }
        return $links;
     }

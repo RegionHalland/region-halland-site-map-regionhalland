@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?php 
 	
-	define('ROOTPATH', __DIR__);
-	$arrPath = explode("app",ROOTPATH);
-	$strPath = $arrPath[0] . "wp\wp-load.php";
+	$strPath = "../../../../wp/wp-load.php";
 	
 	require_once $strPath;
 
