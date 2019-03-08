@@ -10,6 +10,5 @@
 	
 	$strBlogName = get_bloginfo('name');
 	echo "Namn på siten = " . $strBlogName;
-	die();
 
 ?>
