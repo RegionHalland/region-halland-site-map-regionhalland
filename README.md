@@ -13,6 +13,14 @@ http://[SITE-NAME]/app/plugins/region-halland-site-map-regionhalland/site-map/si
 ```
 
 
+## Licensmodell
+
+Denna plugin använder licensmodell GPL-3.0. Du kan läsa mer om denna licensmodell via den medföljande filen:
+```sh
+LICENSE (https://github.com/RegionHalland/region-halland-site-map-regionhalland/blob/master/LICENSE)
+```
+
+
 ## Installation och aktivering
 
 ```sh
@@ -55,6 +63,13 @@ OBS! Justera så att du hämtar aktuell version.
 
 
 ## Versionhistorik
+
+### 1.3.0
+- Lagt till information om licensmodell
+- Bifogat fil med licensmodell
+
+### 1.2.0
+- Kodstädning och kodrensning
 
 ### 1.1.1
 - Justering av felaktig load-path

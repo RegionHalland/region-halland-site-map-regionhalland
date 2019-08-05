@@ -6,9 +6,9 @@
 	/*
 	Plugin Name: Region Halland Site Map RegionHalland
 	Description: Specialsida för att generera en site-map
-	Version: 1.2.0
+	Version: 1.3.0
 	Author: Roland Hydén
-	License: MIT
+	License: GPL-3.0
 	Text Domain: regionhalland
 	*/
 
